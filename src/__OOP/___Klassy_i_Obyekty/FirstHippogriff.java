@@ -71,6 +71,6 @@ public class FirstHippogriff {
         else if (isGivingRide <= 8) {
             return this.name  + " лететь не хочет!";
         }
-        return "Попробуйте снова";
+        return "Попробуйте снова" ;
     }
 }
