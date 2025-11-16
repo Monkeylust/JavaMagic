@@ -3,7 +3,7 @@ package ___Osnovy._five_Massivy;
 import java.util.Arrays;
 import java.util.Random;
 
-public class FourthTask {
+public class _FourthTask {
     public void fourthTask() {
         int[] array = new int[5];
         for (int a = 0; a <= 4; ++a) {

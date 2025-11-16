@@ -1,6 +1,6 @@
 package ___Osnovy._____one_Peremennyye_i_tipy_dannykh;
 
-public class ThirdTask {
+public class _ThirdTask {
     public void thirdTask() {
         int div = 4199;
         int div1 = div % 13;

@@ -2,7 +2,7 @@ package ___Osnovy.____two_Stroki;
 
 import java.util.Random;
 
-public class FirstTask {
+public class __FirstTask {
     public void firstTask() {
         int integer1 = new Random().nextInt();
         String integer1_1 = String.valueOf(integer1);

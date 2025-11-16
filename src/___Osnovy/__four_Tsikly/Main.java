@@ -3,13 +3,13 @@ package ___Osnovy.__four_Tsikly;
 public class Main {
     public static void main(String[] args) {
 
-        FirstTask firstTask = new FirstTask();
+        ___FirstTask firstTask = new ___FirstTask();
         firstTask.firstTask();
 
-        SecondTask secondTask = new SecondTask();
+        __SecondTask secondTask = new __SecondTask();
         secondTask.secondTask();
 
-        ThirdTask thirdTask = new ThirdTask();
+        _ThirdTask thirdTask = new _ThirdTask();
         thirdTask.thirdTask();
     }
 }

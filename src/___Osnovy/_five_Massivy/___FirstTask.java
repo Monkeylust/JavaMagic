@@ -2,7 +2,7 @@ package ___Osnovy._five_Massivy;
 
 import java.util.Arrays;
 
-public class FirstTask {
+public class ___FirstTask {
     public void firstTask() {
         String[] recipe = {
                 "Засушенная чешуя василиска",

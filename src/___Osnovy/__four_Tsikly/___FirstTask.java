@@ -1,6 +1,6 @@
 package ___Osnovy.__four_Tsikly;
 
-public class FirstTask {
+public class ___FirstTask {
     public void firstTask() {
         System.out.print("Запущен мяч под названием ");
         for (int i = 1; i <= 3; i++) {

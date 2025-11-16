@@ -3,10 +3,10 @@ package ___Osnovy.____two_Stroki;
 public class Main {
     public static void main(String[] args) {
 
-        FirstTask firstTask = new FirstTask();
+        __FirstTask firstTask = new __FirstTask();
         firstTask.firstTask();
 
-        SecondTask secondTask = new SecondTask();
+        _SecondTask secondTask = new _SecondTask();
         secondTask.secondTask();
     }
 }

@@ -3,7 +3,7 @@ package ___Osnovy._five_Massivy;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SecondTask_Potion {
+public class __SecondAndThirdTask {
     public void prepare() {
         Scanner scanner = new Scanner(System.in);
         String[] ingredients = {"Драконий коготь", "Лист мандрагоры", "Корень шершавой астрелии"};

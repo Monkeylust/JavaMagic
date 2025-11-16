@@ -2,7 +2,7 @@ package ___Osnovy._____one_Peremennyye_i_tipy_dannykh;
 
 import java.util.Random;
 
-public class SecondTask {
+public class __SecondTask {
     public void secondTask() {
         int grade1 = new Random().nextInt(1, 10);
         System.out.println(grade1);

@@ -2,7 +2,7 @@ package ___Osnovy.___three_Vetvleniye;
 
 import java.util.Random;
 
-public class FirstTask {
+public class __FirstTask {
     public void firstTask() {
         int number1 = new Random().nextInt(1, 10);
         int number2 = new Random().nextInt(1, 10);

@@ -2,7 +2,7 @@ package ___Osnovy.___three_Vetvleniye;
 
 import java.util.Scanner;
 
-public class SecondTask_SortingHat {
+public class _SecondTask {
     public String secondTask_SortingHat() {
         Scanner scanner = new Scanner(System.in);
         String question1 = ("Ты предпочитаешь работать в команде? (Да/Нет)");

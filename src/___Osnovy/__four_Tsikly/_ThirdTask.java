@@ -1,6 +1,6 @@
 package ___Osnovy.__four_Tsikly;
 
-public class ThirdTask {
+public class _ThirdTask {
     public void thirdTask() {
         int a = 0;
         for (int b = 222; b <= 444; b++) {

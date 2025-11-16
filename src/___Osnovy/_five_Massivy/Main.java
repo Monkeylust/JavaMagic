@@ -3,13 +3,13 @@ package ___Osnovy._five_Massivy;
 public class Main {
     public static void main(String[] args) {
 
-        FirstTask firstTask = new FirstTask();
+        ___FirstTask firstTask = new ___FirstTask();
         firstTask.firstTask();
 
-        SecondTask_Potion secondTask_potion = new SecondTask_Potion();
+        __SecondAndThirdTask secondTask_potion = new __SecondAndThirdTask();
         secondTask_potion.prepare();
 
-        FourthTask fourthTask = new FourthTask();
+        _FourthTask fourthTask = new _FourthTask();
         fourthTask.fourthTask();
     }
 }

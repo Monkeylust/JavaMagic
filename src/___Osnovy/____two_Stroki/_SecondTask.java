@@ -2,7 +2,7 @@ package ___Osnovy.____two_Stroki;
 
 import java.util.Random;
 
-public class SecondTask {
+public class _SecondTask {
     public void secondTask() {
         //задаю переменной текст
         String spell = "ARDENTIS VERUM LUMINOS ET FULGUR SYLVESTRA ELIXIA";
