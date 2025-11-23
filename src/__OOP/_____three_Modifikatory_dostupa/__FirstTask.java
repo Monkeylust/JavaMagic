@@ -2,5 +2,6 @@ package __OOP._____three_Modifikatory_dostupa;
 
 public class __FirstTask {
     //test
-    //Amend
+    //noAmend
+    //no2Amend
 }
