@@ -1,7 +1,0 @@
-package __OOP._____three_Modifikatory_dostupa;
-
-public class __FirstTask {
-    //test
-    //noAmend
-    //no2Amend
-}
