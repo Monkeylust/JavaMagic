@@ -2,6 +2,7 @@ import hogwarts.Spell;
 import hogwarts.Student;
 import hogwarts.beasts.Hippogriff;
 import hogwarts.items.Car;
+import hogwarts.items.Cloak;
 
 public class Main {
 
@@ -35,6 +36,7 @@ public class Main {
         Spell spell = new Spell("Boom", 1);
         student1.castSpell(spell);
         ////////////////////////////////////FirstTask_Isklyucheniya<-///////////////////////////////////////////
+        /// /////////////////////////////////->TwoTask_Iinterfejsy//////////////////////////////////////////
         Student student2 = new Student("Nikolai", "Dildindor", 11, new String[]{"", "", ""});
         Car car1 = new Car(student2, 60, true);
         if (car1.isFlying()) {
@@ -42,5 +44,14 @@ public class Main {
         } else {
             car1.becomeVisible();
         }
+
+        Cloak cloak1 = new Cloak(6);
+        boolean someoneUnderCloak = false;
+        if (someoneUnderCloak) {
+            cloak1.becomeInvisible();
+        } else {
+            cloak1.becomeVisible();
+        }
+        /// /////////////////////////////////TwoTask_Iinterfejsy<-//////////////////////////////////////////
     }
 }

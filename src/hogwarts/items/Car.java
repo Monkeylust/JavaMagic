@@ -1,3 +1,4 @@
+/// /////////////////////////////////->FirstTask_Iinterfejsy//////////////////////////////////////////
 package hogwarts.items;
 
 import hogwarts.Student;
@@ -19,11 +20,12 @@ public class Car implements Invisible {
 
     @Override
     public void becomeInvisible() {
-        System.out.printf("$s is invisible", this.getClass());
+        System.out.printf("%n%s is invisible", this.getClass());
     }
 
     @Override
     public void becomeVisible() {
-        System.out.printf("$s is visible", this.getClass());
+        System.out.printf("%n%s is visible", this.getClass());
     }
 }
+/// /////////////////////////////////FirstTask_Iinterfejsy<-//////////////////////////////////////////
