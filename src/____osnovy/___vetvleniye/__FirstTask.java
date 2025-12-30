@@ -1,4 +1,4 @@
-package ___osnovy.___vetvleniye;
+package ____osnovy.___vetvleniye;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package ___osnovy._massivy;
+package ____osnovy._massivy;
 
 import java.util.Arrays;
 import java.util.Random;

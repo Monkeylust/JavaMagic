@@ -1,4 +1,4 @@
-package ___osnovy.__tsikly;
+package ____osnovy.__tsikly;
 
 public class Main {
     public static void main(String[] args) {

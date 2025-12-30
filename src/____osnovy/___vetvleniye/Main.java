@@ -1,4 +1,4 @@
-package ___osnovy.___vetvleniye;
+package ____osnovy.___vetvleniye;
 
 public class Main {
     public static void main(String[] args) {

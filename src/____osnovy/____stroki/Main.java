@@ -1,4 +1,4 @@
-package ___osnovy.____stroki;
+package ____osnovy.____stroki;
 
 public class Main {
     public static void main(String[] args) {

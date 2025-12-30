@@ -1,4 +1,4 @@
-package ___osnovy.__tsikly;
+package ____osnovy.__tsikly;
 
 import java.util.Random;
 

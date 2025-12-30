@@ -1,4 +1,4 @@
-package ___osnovy._massivy;
+package ____osnovy._massivy;
 
 public class Main {
     public static void main(String[] args) {

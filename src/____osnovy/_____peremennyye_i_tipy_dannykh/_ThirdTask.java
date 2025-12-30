@@ -1,4 +1,4 @@
-package ___osnovy._____peremennyye_i_tipy_dannykh;
+package ____osnovy._____peremennyye_i_tipy_dannykh;
 
 public class _ThirdTask {
     public void thirdTask() {
