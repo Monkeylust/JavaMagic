@@ -2,9 +2,11 @@ package hogwarts;
 
 import hogwarts.exceptions.SpellCastException;
 
+import java.util.Arrays;
+
 /// /////////////////////////////////->SecondTask///////////////////////////////////////////
 
-public class Student {
+public class Student implements Comparable<Student> {
     private String name;
     private String faculty;
     private int age;
@@ -32,6 +34,24 @@ public class Student {
     public String[] getAbilities() {
         return abilities;
     }
+
+    /// /////////////////////////////////->FirstTask_Collections//////////////////////////////////////////
+    @Override
+    public int compareTo(Student other) {
+        return Integer.compare(this.age, other.age);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", faculty='" + faculty + '\'' +
+                ", age=" + age +
+                ", abilities=" + Arrays.toString(abilities) +
+                '}';
+    }
+
+    /// /////////////////////////////////FirstTask_Collections<-//////////////////////////////////////////
 
     /// /////////////////////////////////->FirstTask_Isklyucheniya//////////////////////////////////////////
     public void castSpell(Spell spell) {

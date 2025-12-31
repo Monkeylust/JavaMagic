@@ -1,8 +1,13 @@
+import hogwarts.SortComparators;
 import hogwarts.Spell;
 import hogwarts.Student;
 import hogwarts.beasts.Hippogriff;
 import hogwarts.items.Car;
 import hogwarts.items.Cloak;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class Main {
 
@@ -53,5 +58,34 @@ public class Main {
             cloak1.becomeVisible();
         }
         /// /////////////////////////////////TwoTask_Iinterfejsy<-//////////////////////////////////////////
+
+        /// /////////////////////////////////->FirstTask_Collections//////////////////////////////////////////
+        List<Student> students = new ArrayList<>();
+        students.add(new Student("Гарри Поттер", "Гриффиндор", 16, new String[]{"Летать на метле"}));
+        students.add(new Student("Гермиона Грейнджер", "Гриффиндор", 16, new String[]{"Магия Трансформации"}));
+        students.add(new Student("Драко Малфой", "Слизерин", 17, new String[]{"Оборотень"}));
+        students.add(new Student("Невилл Долгопупс", "Гриффиндор", 15, new String[]{"Растения"}));
+
+        // 1. Сортировка по возрасту (используя Comparable)
+        Collections.sort(students);
+        System.out.println("Сортировка по возрасту:");
+        printStudents(students);
+
+        // 2. Сортировка по имени (алфавитный порядок)
+        Collections.sort(students, SortComparators.NAME_COMPARATOR);
+        System.out.println("\nСортировка по имени:");
+        printStudents(students);
+
+        // 3. Сортировка по факультету (убывающий порядок)
+        Collections.sort(students, SortComparators.FACULTY_COMPARATOR);
+        System.out.println("\nСортировка по факультету (убывание):");
+        printStudents(students);
+    }
+
+    private static void printStudents(List<Student> students) {
+        for (Student student : students) {
+            System.out.println(student);
+        }
+        /// /////////////////////////////////FirstTask_Collections<-//////////////////////////////////////////
     }
 }
